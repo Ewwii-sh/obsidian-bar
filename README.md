@@ -8,27 +8,20 @@ A dark and sleek bar made with ewwii for [hyprland](https://hypr.land).
 
 ## Install
 
-The installation step is very simple. You can follow the following steps:
-
-### Step-1: Clone the repository
-
-You can either download the repo [here](https://github.com/Ewwii-sh/obsidian-bar/archive/refs/heads/main.zip), or clone the repo using git.
-
-You can clone using git by using the following command:
+Obsidian bar can be installed through [eiipm](https://github.com/Ewwii-sh/eiipm). Obsidian bar is set up in a way that it will be intalled in the CWD (Current Working Directory). So you can use the commands below to properly install it:
 
 ```bash
-$ git clone https://github.com/Ewwii-sh/obsidian-bar.git obsidian-bar
-```
+# Make a new directory where it will be installed
+$ mkdir obsidian-bar
 
-### Step-2: Enter into the repository
-
-```bash
+# then enter into it
 $ cd obsidian-bar
-# or if it is at another place:
-# cd <PATH/TO/REPO>
+
+# Then install obsidian bar (which is set in a way to install to CWD)
+$ eiipm i obsidian-bar
 ```
 
-### Step-3: Render with ewwii
+After running the commands provided above, you will have obsidian bar installed in the current directory. So you can run the following command to render it:
 
 ```bash
 $ ewwii open obsidian-bar --config .
