@@ -1,0 +1,129 @@
+// Reset
+* {
+  all: unset; // Unsets everything so you can style everything from scratch
+}
+
+$dark-bg: rgba(30, 30, 30, 1);
+$dark-text: #b0b4bc;
+$dark-battery-charging: #0f0;
+$dark-battery-full: #fff;
+$dark-battery-discharging: #b0b4bc;
+$dark-calendar-bg: rgba(20, 20, 20, 1);
+$dark-calendar-text: #b0b4bc;
+$dark-calendar-highlight: #d35d6e;
+
+.obsidian_bar {
+  background-color: transparent;
+  color: $dark-text;
+  padding: 10px;
+}
+
+.sidestuff slider {
+  all: unset;
+  color: #ffd5cd;
+}
+
+.obsidian_bar .left,
+.obsidian_bar .center,
+.obsidian_bar .right,
+.obsidian_bar .metric,
+.obsidian_bar .workspace {
+  background-color: $dark-bg;
+  padding: 5px 10px;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color: $dark-text;
+}
+
+.obsidian_bar .center button {
+  all: unset;
+  padding: 5px 5px;
+  font-size: larger;
+}
+
+.metric scale trough highlight {
+  all: unset;
+  background-color: #d35d6e;
+  color: #000000;
+  border-radius: 10px;
+}
+
+.metric scale trough {
+  all: unset;
+  background-color: #4e4e4e;
+  border-radius: 50px;
+  min-height: 10px;
+  min-width: 60px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.label-ram {
+  font-size: large;
+}
+
+.obsidian_bar .workspace button:hover {
+  all: unset;
+  color: #d35d6e;
+  font-size: 10px;
+}
+
+.obsidian_bar .workspace button {
+  font-size: 10px;
+}
+
+.obsidian_bar .separator {
+  min-width: 1px;
+  min-height: 20px;
+  background-color: #888;
+  margin: 0 8px;
+}
+
+// Battery colors (dark theme defaults)
+.battery-charging {
+  color: $dark-battery-charging;
+}
+
+.battery-full {
+  color: $dark-battery-full;
+}
+
+.battery-discharging {
+  color: $dark-battery-discharging;
+}
+
+.calendar {
+  color: $dark-calendar-text;
+  background-color: $dark-calendar-bg;
+  border-radius: 10px;
+}
+
+.calendar-in {
+  color: #bfc9db;
+}
+
+.calendar.highlight {
+  color: $dark-calendar-highlight;
+  font-weight: bold;
+}
+
+calendar {
+  color: $dark-calendar-text;
+}
+
+calendar:selected {
+  color: $dark-calendar-highlight;
+}
+
+calendar.header {
+  color: #a1bdce;
+  font-weight: bold;
+}
+
+calendar.button {
+  color: #afbea2;
+}
+
+calendar:indeterminate {
+  color: #bfc9db;
+}
