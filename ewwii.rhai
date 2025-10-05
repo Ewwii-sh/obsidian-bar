@@ -31,7 +31,7 @@ fn bar(
     // right
     battery_state, battery_percent, volume, time
 ) {
-  centerbox(#{ 
+  box(#{ 
     orientation: "h",
   }, [
     left(
