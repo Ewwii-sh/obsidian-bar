@@ -9,7 +9,7 @@ fn metric(label, value, onchange, timeout) {
         box(#{ class: "label" }, [
             label(#{ text: label }),
         ]),
-        slider(#{
+        scale(#{
             min: 0,
             max: 101,
             active: need_active,
